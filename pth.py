@@ -51,10 +51,10 @@ class Pixel:
 
 ## fills the selected start and end cell of the grid in yellow
 def select(grid, x, y, width, height):
-    pygame.draw.rect(screen,(255,255,0),(x*width,y*height,width,height),0)
+    pygame.draw.rect(screen,(225,225,25),(x*width,y*height,width,height),0)
     pygame.display.update()
 
-## fills the clicked cell with grey and has it block the path
+## fills the clicked cell with black and it blocks the path
 def mouseClick(grid, x, y, width, height):
     pygame.draw.rect(screen,(0,0,0),(x*width,y*height,width,height),0)
     grid[y][x].mazeVal = 0
@@ -118,12 +118,12 @@ def aStarAlgo(start, end, count,width,height):
 
         ## draws each cell of the open list in red
         for it in openList:
-            pygame.draw.rect(screen,(0, 0, 255),(it.i*width,it.j*height,height,width),0)
+            pygame.draw.rect(screen,(25, 25, 200),(it.i*width,it.j*height,height,width),0)
 
         ## draws each cell of the closed list in blue
         for it in closedList:
             if it != start:
-                pygame.draw.rect(screen,(255, 0, 0),(it.i*width,it.j*height,height,width),0)
+                pygame.draw.rect(screen,(200, 25, 25),(it.i*width,it.j*height,height,width),0)
         currentNode.closed = True
 
 def initializeMaze(): 
@@ -157,7 +157,7 @@ def initializeMaze():
             if maze[i][j].mazeVal == 0:
                 pygame.draw.rect(screen,(0,0,0),(j*width,i*height,width,height),0)
             if maze[i][j].mazeVal == 1:
-                pygame.draw.rect(screen,(255,255,255),(j*width,i*height,width,height),0)
+                pygame.draw.rect(screen,(225,225,225),(j*width,i*height,width,height),0)
     pygame.display.update()
 
 def recursion(randRow, randCol):
