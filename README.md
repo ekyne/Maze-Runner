@@ -1,5 +1,5 @@
 # <p style="text-align: center;">Maze Runner</p>
-![MazeRunner](https://drive.google.com/uc?export=view&id=11BTVU481JAsZ6Th4f4nj8wQJnqjyzPes)
+![MazeRunner](https://drive.google.com/uc?export=view&id=1kKYprEsJdrOmQN_w48791d8kFPbP96-V)
 
 This is a maze runner project written in Python, which includes PyGame to demonstrate the capabilities of pathfinding algorithms.
 
