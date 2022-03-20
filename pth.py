@@ -160,10 +160,6 @@ def initializeMaze():
                 pygame.draw.rect(screen,(255,255,255),(j*width,i*height,width,height),0)
     pygame.display.update()
 
-    ##pygame.draw.rect(screen,(0,0,0),(randRow*height,randCol*width,width,height),0)
-    ##pygame.display.update()
-
-
 def recursion(randRow, randCol):
 
     dirs = []
