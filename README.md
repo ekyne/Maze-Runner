@@ -1,7 +1,7 @@
 # <p style="text-align: center;">Maze Runner</p>
 ![MazeRunner](https://drive.google.com/uc?export=view&id=1kKYprEsJdrOmQN_w48791d8kFPbP96-V)
 
-This is a maze runner project written in Python, which includes PyGame to demonstrate the capabilities of pathfinding algorithms.
+This is a maze runner project written in Python 3, which includes PyGame to demonstrate the capabilities of pathfinding algorithms.
 
 The goal of the project is to traverse a maze by automated means, in which the path can be blocked by the user if they choose. Blocking the program from reaching its destination shows proof that it knows when its destination cannot be found. 
 
