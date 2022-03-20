@@ -94,7 +94,7 @@ def aStarAlgo(start, end, count,width,height):
                 if currentNode.g - currentNode.parent.g == 1:
                     count = count + 1
                     currentNode = currentNode.parent
-                    pygame.draw.rect(screen,(0, 255, 0),(currentNode.i*height,currentNode.j*width,height,width),0)
+                    pygame.draw.rect(screen,(25, 200, 25),(currentNode.i*height,currentNode.j*width,height,width),0)
             pygame.display.update()
             print("The path length is: " + str(count))
             time.sleep(5)
