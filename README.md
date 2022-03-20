@@ -24,5 +24,3 @@ To run the program, navigate to the folder and type in the following command:
 ```
 python3 ./pth.py
 ``` 
-## Author
-Kyle Gilmore
