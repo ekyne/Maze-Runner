@@ -1,4 +1,4 @@
-## Author: 	    Kyle Gilmore
+## Author: 	    Ekyne
 ## Date: 	    March 18, 2022
 ## Project: 	Maze Runner
 ## File: 	    pth.py
